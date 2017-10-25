@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "main": "engine.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon engine.js"
   },
   "author": "",
@@ -11,8 +10,14 @@
   "description": "",
   "dependencies": {
     "body-parser": "^1.18.2",
+    "connect-mongodb": "^1.1.5",
+    "crypto-js": "^3.1.9-1",
     "express": "^4.16.2",
-    "mongodb": "^2.2.32"
+    "express-session": "^1.15.6",
+    "lodash": "^4.17.4",
+    "mongodb": "^2.2.32",
+    "mongoose": "^4.12.2",
+    "nodemailer": "^4.2.0"
   },
   "devDependencies": {
     "nodemon": "^1.12.1"
